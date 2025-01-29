@@ -231,17 +231,11 @@ class Model_Ensemble(nn.Module):
 
 class model_multilabel:
     def __init__(self):
-        """
-        self.checkpoint1 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_224_224_OCT_BREST_MULTILABEL/20240628-175243/bestmodel_hamming.pth"
-        self.checkpoint2 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_224_224_OCT_BREST_MULTILABEL/20240628-175350/bestmodel_hamming.pth"
-        self.checkpoint3 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_224_224_OCT_BREST_MULTILABEL/20240628-175407/bestmodel_hamming.pth"
-        self.checkpoint4 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_224_224_OCT_BREST_MULTILABEL/20240628-175432/bestmodel_hamming.pth"
-        """
-
-        self.checkpoint1 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_MULTILABEL/20240701-150344/bestmodel_auc.pth"
-        self.checkpoint2 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_MULTILABEL/20240701-150400/bestmodel_auc.pth"
-        self.checkpoint3 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_MULTILABEL/20240701-150415/bestmodel_hamming.pth"
-        self.checkpoint4 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_MULTILABEL/20240701-150438/bestmodel_hamming.pth"
+   
+        self.checkpoint1 = "/home2/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_MULTILABEL/20240701-150344/bestmodel_auc.pth"
+        self.checkpoint2 = "/home2/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_MULTILABEL/20240701-150400/bestmodel_auc.pth"
+        self.checkpoint3 = "/home2/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_MULTILABEL/20240701-150415/bestmodel_hamming.pth"
+        self.checkpoint4 = "/home2/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_MULTILABEL/20240701-150438/bestmodel_hamming.pth"
 
         # The model is evaluated using CPU, please do not change to GPU to avoid error reporting.
         self.device = torch.device("cuda")
