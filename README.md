@@ -15,7 +15,7 @@ Chaque volume OCT comprend :
 - Un ensemble de coupes horizontales appelées **B-scans**.
 - **Dimensions** : Chaque volume a des dimensions de **512 x 192 x 19** pixels.
 
-![Texte alternatif](Images/Volume 3D.png)
+![Description de l’image](Images/Volume 3D.png)
 
 ### Visualisation des Données
 
@@ -46,14 +46,14 @@ Le modèle de classification utilisé est basé sur l’architecture des **Visio
 - **Blocs Transformer** : Utilisation du mécanisme de **Self-Attention** pour capturer les relations globales entre les patchs.
 - **Classification** : Un vecteur représentant l’image est utilisé pour la classification en catégories normale et anormale.
 
-![Texte alternatif](images/ViT.png)
+![Description de l’image](images/ViT.png)
 
 
 ### Vision Transformer 3D
 
 Un modèle de **Vision Transformer 3D** a été développé pour traiter chaque coupe comme un patch. Ce modèle a obtenu des performances satisfaisantes sur la base OCTBrest avec une **AUC** de **0,88** pour la détection des catégories normales et anormales.
 
-![Texte alternatif](images/Architecture.png)
+![Description de l’image](images/Architecture.png)
 
 
 ## Méthodes d’Interprétabilité
@@ -83,14 +83,14 @@ Deux méthodes d’évaluation ont été proposées :
    - **Scores d’Attention** ou **Scores d’Attribution** visualisés pour valider manuellement les algorithmes.
    - **Objectif** : Attendre des scores élevés pour les coupes pathologiques et des scores faibles pour les coupes saines.
   
-![Texte alternatif](images/IG.png)
+    ![Description de l’image](images/IG.png)
 
 
 2. **Calcul de l’AUC** :
    - Basé sur les scores d’attention / attribution et les labels des coupes.
    - **Résultat obtenu** : **80 % AUC** avec la méthode Integrated Gradients.
   
-   ![Texte alternatif](images/Result.png)
+   ![Description de l’image](images/Result.png)
   
 
 ### Résultats
