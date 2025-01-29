@@ -171,19 +171,10 @@ class model_binary:
     def __init__(self):
         # baseline VLFAT
 
-        # self.checkpoint1 = "/home/rasri/PycharmProjects/VLFAT_INTERPRETABILITY/train_output/VLFAT_BINARY/20240430-042649/bestmodel_auc.pth"
-        # self.checkpoint2 = "/home/rasri/PycharmProjects/VLFAT_INTERPRETABILITY/train_output/VLFAT_BINARY/20240430-042716/bestmodel_auc.pth"
-        # self.checkpoint3 = "/home/rasri/PycharmProjects/VLFAT_INTERPRETABILITY/train_output/VLFAT_BINARY/20240430-042749/bestmodel_auc.pth"
-        # self.checkpoint4 = "/home/rasri/PycharmProjects/VLFAT_INTERPRETABILITY/train_output/VLFAT_BINARY/20240430-042936/bestmodel_auc.pth"
-
-        # VLFATVIVP baseline
-        self.checkpoint1 = "/home/rasri/PycharmProjects/VLFAT_INTERPRETABILITY/train_output/VLFAT_VI_VP_BINARY/20240517-164008/bestmodel_auc.pth"
-        """
-        self.checkpoint1 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_BINARY/20240517-164008/bestmodel_auc.pth"
-        self.checkpoint2 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_BINARY/20240517-173754/bestmodel_auc.pth"
-        self.checkpoint3 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_BINARY/20240519-034914/bestmodel_auc.pth"
-        self.checkpoint4 = "/home2/pzhang/VLFAT3/train_output/ViT_VaR_VarIN_224_512_OCT_BREST_BINARY/20240519-184700/bestmodel_auc.pth"
-        """
+        self.checkpoint1 = "/home/rasri/PycharmProjects/VLFAT_INTERPRETABILITY/train_output/VLFAT_BINARY/20240430-042649/bestmodel_auc.pth"
+        self.checkpoint2 = "/home/rasri/PycharmProjects/VLFAT_INTERPRETABILITY/train_output/VLFAT_BINARY/20240430-042716/bestmodel_auc.pth"
+        self.checkpoint3 = "/home/rasri/PycharmProjects/VLFAT_INTERPRETABILITY/train_output/VLFAT_BINARY/20240430-042749/bestmodel_auc.pth"
+        self.checkpoint4 = "/home/rasri/PycharmProjects/VLFAT_INTERPRETABILITY/train_output/VLFAT_BINARY/20240430-042936/bestmodel_auc.pth"
 
         # The model is evaluated using CPU, please do not change to GPU to avoid error reporting.
         self.device = torch.device("cuda")
