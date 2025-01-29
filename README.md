@@ -108,3 +108,7 @@ L’intégration des méthodes d’interprétabilité **Captum** et **Attention*
 
 - Python 3.8+
 - Bibliothèques : `torch`, `captum`, `numpy`, `pandas`, `matplotlib`, etc.
+
+### Poste LinkedIn
+[Poste LinkedIn](https://www.linkedin.com/in/votre-nom-utilisateur/)
+
