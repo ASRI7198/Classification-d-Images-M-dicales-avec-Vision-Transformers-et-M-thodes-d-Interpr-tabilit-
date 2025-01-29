@@ -15,7 +15,7 @@ Chaque volume OCT comprend :
 - Un ensemble de coupes horizontales appelées **B-scans**.
 - **Dimensions** : Chaque volume a des dimensions de **512 x 192 x 19** pixels.
 
-![Description de l’image](Images/Volume 3D.png)
+![Description de l’image](Images/Volume3D.png)
 
 ### Visualisation des Données
 
