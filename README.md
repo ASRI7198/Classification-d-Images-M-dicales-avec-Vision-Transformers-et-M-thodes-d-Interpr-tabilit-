@@ -46,14 +46,14 @@ Le modèle de classification utilisé est basé sur l’architecture des **Visio
 - **Blocs Transformer** : Utilisation du mécanisme de **Self-Attention** pour capturer les relations globales entre les patchs.
 - **Classification** : Un vecteur représentant l’image est utilisé pour la classification en catégories normale et anormale.
 
-![Description de l’image](images/ViT.png)
+![Description de l’image](Images/ViT.png)
 
 
 ### Vision Transformer 3D
 
 Un modèle de **Vision Transformer 3D** a été développé pour traiter chaque coupe comme un patch. Ce modèle a obtenu des performances satisfaisantes sur la base OCTBrest avec une **AUC** de **0,88** pour la détection des catégories normales et anormales.
 
-![Description de l’image](images/Architecture.png)
+![Description de l’image](Images/Architecture.png)
 
 
 ## Méthodes d’Interprétabilité
@@ -83,14 +83,14 @@ Deux méthodes d’évaluation ont été proposées :
    - **Scores d’Attention** ou **Scores d’Attribution** visualisés pour valider manuellement les algorithmes.
    - **Objectif** : Attendre des scores élevés pour les coupes pathologiques et des scores faibles pour les coupes saines.
   
-    ![Description de l’image](images/IG.png)
+    ![Description de l’image](Images/IG.png)
 
 
 2. **Calcul de l’AUC** :
    - Basé sur les scores d’attention / attribution et les labels des coupes.
    - **Résultat obtenu** : **80 % AUC** avec la méthode Integrated Gradients.
   
-   ![Description de l’image](images/Result.png)
+   ![Description de l’image](Images/Result.png)
   
 
 ### Résultats
