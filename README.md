@@ -15,9 +15,14 @@ Chaque volume OCT comprend :
 - Un ensemble de coupes horizontales appelées **B-scans**.
 - **Dimensions** : Chaque volume a des dimensions de **512 x 192 x 19** pixels.
 
+![Texte alternatif](chemin/vers/image.png)
+
 ### Visualisation des Données
 
 En raison de la nature privée de la base de données OCTBrest, les visualisations spécifiques des volumes et des images IR ne sont pas incluses dans ce projet. Cependant, des statistiques globales et des descriptions des données sont fournies pour mieux comprendre la structure et la répartition des données.
+
+![Texte alternatif](chemin/vers/image.png)
+
 
 ## Analyse Statistique du Dataset
 
@@ -43,9 +48,15 @@ Le modèle de classification utilisé est basé sur l’architecture des **Visio
 - **Blocs Transformer** : Utilisation du mécanisme de **Self-Attention** pour capturer les relations globales entre les patchs.
 - **Classification** : Un vecteur représentant l’image est utilisé pour la classification en catégories normale et anormale.
 
+![Texte alternatif](chemin/vers/image.png)
+
+
 ### Vision Transformer 3D
 
 Un modèle de **Vision Transformer 3D** a été développé pour traiter chaque coupe comme un patch. Ce modèle a obtenu des performances satisfaisantes sur la base OCTBrest avec une **AUC** de **0,88** pour la détection des catégories normales et anormales.
+
+![Texte alternatif](chemin/vers/image.png)
+
 
 ## Méthodes d’Interprétabilité
 
@@ -73,10 +84,16 @@ Deux méthodes d’évaluation ont été proposées :
 1. **Visualisation des Scores** :
    - **Scores d’Attention** ou **Scores d’Attribution** visualisés pour valider manuellement les algorithmes.
    - **Objectif** : Attendre des scores élevés pour les coupes pathologiques et des scores faibles pour les coupes saines.
+  
+![Texte alternatif](chemin/vers/image.png)
+
 
 2. **Calcul de l’AUC** :
    - Basé sur les scores d’attention / attribution et les labels des coupes.
    - **Résultat obtenu** : **80 % AUC** avec la méthode Integrated Gradients.
+  
+   ![Texte alternatif](chemin/vers/image.png)
+  
 
 ### Résultats
 
