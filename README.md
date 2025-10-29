@@ -2,7 +2,15 @@
 
 ## Introduction
 
-Ce projet a été réalisé dans le cadre d’un stage de Projet de Fin d’Études (PFE) du master MIDVI (Fès, Maroc) au Laboratoire LaTIM (Laboratoire de Traitement de l'Information Médicale) de l'Université de Bretagne Occidentale à Brest, France, en collaboration avec l'entreprise Evolucare. L’objectif principal était d’intégrer des méthodes d’interprétabilité, telles que **Captum** et **Attention**, dans des réseaux de Vision Transformers (ViT) pour la classification d’images médicales en catégories normales et anormales.
+Ce projet a été réalisé dans le cadre d’un stage de Projet de Fin d’Études (PFE) du master MIDVI (Fès, Maroc) au Laboratoire LaTIM (Laboratoire de Traitement de l'Information Médicale) de l'Université de Bretagne Occidentale à Brest, France, en collaboration avec l'entreprise Evolucare. L’objectif principal était d’intégrer des méthodes d’interprétabilité, 
+telles que **Captum** et **Attention**, dans des réseaux de Vision Transformers (ViT) pour la classification d’images médicales en catégories normales et anormales.
+
+## Méthodologie
+>
+> <p align="center">
+>   <img src="VIT3D.jpg" alt="Schéma de la méthodologie" width="780">
+> </p>
+> <p align="center"><em>Figure 1 — Schéma de la méthodologie.</em></p>
 
 ## Description des Données
 
