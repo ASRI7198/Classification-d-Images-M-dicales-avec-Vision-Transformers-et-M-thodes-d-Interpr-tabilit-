@@ -8,7 +8,7 @@ telles que **Captum** et **Attention**, dans des réseaux de Vision Transformers
 ## Méthodologie
 >
 > <p align="center">
->   <img src="VIT3D.jpg" alt="Schéma de la méthodologie" width="780">
+>   <img src="VIT3D.jpg" alt="Schéma de la méthodologie" width="980">
 > </p>
 > <p align="center"><em>Figure 1 — Schéma de la méthodologie.</em></p>
 
